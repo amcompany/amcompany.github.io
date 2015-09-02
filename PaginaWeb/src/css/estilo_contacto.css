@@ -1,0 +1,26 @@
+.contenedor{
+width: 100%;	
+margin: 0 auto;
+}
+.texto{
+	padding-top: 5%;
+	/*width: 40%;*/
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#horarios{
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.texto{
+	width: 100%;
+}
+#mapa{
+	width:100%;
+}
+}
