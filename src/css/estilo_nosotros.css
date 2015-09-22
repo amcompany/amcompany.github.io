@@ -29,6 +29,44 @@
 	width: 100%;
 }
 
+#menu_nosotros{
+	float: right;
+	margin-right: 3em;
+	margin-top: 5em;
+}
+
+.lin{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: center;
+	text-align: center;
+	color: #008200;
+	cursor: pointer;
+
+}
+
+.lin:hover {
+	background-color: #008200;
+	color: white;
+	/*padding: 2% 2% 0.85em 2%;*/
+}
+
+
+
+.menuNos{
+	color: #008200;
+	text-decoration: none;
+}
+
+.menuNOs:hover {
+	background-color: white;
+	color: white;
+}
+
+.file{
+	width: 50px;
+}
+
 @media only screen and (max-width: 768px) {
 
 .contenido{
